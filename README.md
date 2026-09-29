@@ -30,7 +30,7 @@ The complete dataset is publicly released and hosted on **Mendeley Data**:
 | `YOLO_V_12s.ipynb` | Ultralytics YOLOv12s | Supplementary supervised detection evaluation |
 | `YOLO_V_26s.ipynb` | Ultralytics YOLO26s | Modern supervised detection baseline |
 | `RFDETR.ipynb` | RF-DETR-Small | Supervised transformer detection baseline |
-| `unsupervised.ipynb` | **DINOv2 (ViT-S/14 & ViT-B/14)** | Self-supervised foundation feature extraction, PCA, KMeans, GMM, and Hungarian assignment |
+| `Self-Supervised.ipynb` | **DINOv2 (ViT-S/14 & ViT-B/14)** | Self-supervised foundation feature extraction, PCA, KMeans, GMM, and Hungarian assignment |
 
 ---
 
@@ -61,7 +61,7 @@ pip install roboflow==1.1.27
 4. Run all cells to train for 50 epochs and compute precision, recall, mAP@0.5, mAP@0.5:0.95, and confusion matrices.
 
 ### 2. Self-Supervised Feature Clustering (DINOv2)
-1. Open `unsupervised.ipynb` in Google Colab.
+1. Open `Self-Supervised.ipynb` in Google Colab.
 2. The notebook automatically downloads Meta's official pretrained DINOv2 foundation models (`dinov2_vits14` and `dinov2_vitb14`) via PyTorch Hub.
 3. Object crops resized to 518×518 pixels are mapped into high-dimensional feature space.
 4. Dimensionality reduction via PCA (100 components) is executed, followed by clustering ($K = 24$) with KMeans, MiniBatchKMeans, and Gaussian Mixture Models (GMM).
