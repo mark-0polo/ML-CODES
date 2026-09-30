@@ -30,7 +30,7 @@ The complete dataset is publicly released and hosted on **Mendeley Data**:
 | `YOLO_V_12s.ipynb` | Ultralytics YOLOv12s | Supplementary supervised detection evaluation |
 | `YOLO_V_26s.ipynb` | Ultralytics YOLO26s | Modern supervised detection baseline |
 | `RFDETR.ipynb` | RF-DETR-Small | Supervised transformer detection baseline |
-| `Self-Supervised.ipynb` | **DINOv2 (ViT-S/14 & ViT-B/14)** | Self-supervised foundation feature extraction, PCA, KMeans, GMM, and Hungarian assignment |
+| `DINOv2_Feature_Clustering.ipynb` | **DINOv2 (ViT-S/14 & ViT-B/14)** | Self-supervised foundation feature extraction, PCA, KMeans, GMM, and Hungarian assignment |
 
 ---
 
@@ -76,7 +76,7 @@ If you use this dataset or code in your research, please cite our corresponding 
 ```bibtex
 @article{mondol2026hardware,
   title={A Large-Scale, Fine-Grained Image Dataset for Industrial Hardware Component and Tool Recognition},
-  author={Mondol, Mark Protik and Islam, Md Shakib Al and Hossain, Tanvir and Rabbi, Abu Sayed and Islam, Md Motaharul},
+  author={Mondol, Mark Protik and Islam, Md Shakib Al and Alsaawy, Yazed B. and Hossain, Tanvir and Rabbi, Abu Sayed and Islam, Md Motaharul},
   journal={Scientific Data},
   year={2026}
 }
