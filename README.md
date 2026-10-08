@@ -16,8 +16,8 @@ The complete dataset is publicly released and hosted on **Mendeley Data**:
 * **Direct Link:** [https://doi.org/10.17632/gmjkzdxhc6.1](https://doi.org/10.17632/gmjkzdxhc6.1)
 * **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 * **Contents:**
-  - `raw/`: 4,545 unaugmented workshop images collected across three distinct smartphone camera modules (OnePlus Nord CE 4, Nothing CMF Phone 2 Pro, and Nothing Phone 2) with COCO-format bounding box annotations.
-  - `augmented/`: 12,150 benchmark images (10,140 train, 1,006 validation, 1,004 test; 13,306 annotated instances) in YOLO text and COCO JSON formats across 24 fine-grained tool categories.
+  - `raw/`: 4,510 unaugmented workshop images collected across three distinct smartphone camera modules (OnePlus Nord CE 4, Nothing CMF Phone 2 Pro, and Nothing Phone 2) with COCO-format bounding box annotations.
+  - `augmented/`: 12,115 benchmark images (10,133 train, 993 validation, 989 test; 13,271 annotated instances) in COCO JSON formats across 24 fine-grained tool categories.
 
 ---
 
@@ -61,7 +61,7 @@ pip install roboflow==1.1.27
 4. Run all cells to train for 50 epochs and compute precision, recall, mAP@0.5, mAP@0.5:0.95, and confusion matrices.
 
 ### 2. Self-Supervised Feature Clustering (DINOv2)
-1. Open `Self-Supervised.ipynb` in Google Colab.
+1. Open `DINOv2_Feature_Clustering.ipynb` in Google Colab.
 2. The notebook automatically downloads Meta's official pretrained DINOv2 foundation models (`dinov2_vits14` and `dinov2_vitb14`) via PyTorch Hub.
 3. Object crops resized to 518×518 pixels are mapped into high-dimensional feature space.
 4. Dimensionality reduction via PCA (100 components) is executed, followed by clustering ($K = 24$) with KMeans, MiniBatchKMeans, and Gaussian Mixture Models (GMM).
