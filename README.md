@@ -1,6 +1,6 @@
 # A Large-Scale, Fine-Grained Image Dataset for Industrial Hardware Component and Tool Recognition
 
-[![Dataset DOI](https://img.shields.io/badge/DOI-10.17632%2Fgmjkzdxhc6.1-blue.svg)](https://doi.org/10.17632/gmjkzdxhc6.2)
+[![Dataset DOI](https://img.shields.io/badge/DOI-10.17632%2Fgmjkzdxhc6.2-blue.svg)](https://doi.org/10.17632/gmjkzdxhc6.2)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.1-orange.svg)](https://pytorch.org/)
