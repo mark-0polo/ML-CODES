@@ -12,12 +12,12 @@ Official code repository for the technical validation pipelines accompanying the
 
 ## 📌 Dataset Access & DOI
 The complete dataset is publicly released and hosted on **Mendeley Data**:
-* **DOI:** [10.17632/gmjkzdxhc6.1](https://doi.org/10.17632/gmjkzdxhc6.1)
-* **Direct Link:** [https://doi.org/10.17632/gmjkzdxhc6.1](https://doi.org/10.17632/gmjkzdxhc6.1)
+* **DOI:** [10.17632/gmjkzdxhc6.2](https://doi.org/10.17632/gmjkzdxhc6.2)
+* **Direct Link:** [https://doi.org/10.17632/gmjkzdxhc6.2](https://doi.org/10.17632/gmjkzdxhc6.2)
 * **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 * **Contents:**
-  - `raw/`: 4,510 unaugmented workshop images collected across three distinct smartphone camera modules (OnePlus Nord CE 4, Nothing CMF Phone 2 Pro, and Nothing Phone 2) with COCO-format bounding box annotations.
-  - `augmented/`: 12,115 benchmark images (10,133 train, 993 validation, 989 test; 13,271 annotated instances) in COCO JSON formats across 24 fine-grained tool categories.
+  - `raw/`: 4,633 unaugmented workshop images collected across three distinct smartphone camera modules (OnePlus Nord CE 4, Nothing CMF Phone 2 Pro, and Nothing Phone 2) with COCO-format bounding box annotations.
+  - `augmented/`: 12,481 benchmark images (10,464 train, 1,004 validation, 1,013 test; 14,161 annotated instances) in COCO JSON formats across 24 fine-grained tool categories.
 
 ---
 
@@ -55,7 +55,7 @@ pip install roboflow==1.1.27
 ## 🚀 How to Run the Technical Validation
 
 ### 1. Supervised Object Detection (YOLO Variants & RF-DETR)
-1. Download and extract the dataset from Mendeley Data (`10.17632/gmjkzdxhc6.1`).
+1. Download and extract the dataset from Mendeley Data (`10.17632/gmjkzdxhc6.2`).
 2. Open the desired notebook (e.g., `YOLO_V_11s.ipynb` or `RFDETR.ipynb`) in Google Colab or Jupyter Notebook.
 3. Update the dataset directory path in the notebook to point to your unzipped dataset location.
 4. Run all cells to train for 50 epochs and compute precision, recall, mAP@0.5, mAP@0.5:0.95, and confusion matrices.
@@ -87,7 +87,7 @@ If you use this dataset or code in your research, please cite our corresponding 
   year={2026},
   publisher={Mendeley Data},
   version={V1},
-  doi={10.17632/gmjkzdxhc6.1}
+  doi={10.17632/gmjkzdxhc6.2}
 }
 ```
 
